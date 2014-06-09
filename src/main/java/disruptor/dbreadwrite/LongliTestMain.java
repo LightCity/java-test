@@ -39,7 +39,7 @@ public class LongliTestMain {
 	static {
 		try {
 			Class.forName("com.mysql.jdbc.Driver");
-			String url = "jdbc:mysql://localhost:4050/test?charactorEncoding=utf-8";
+			String url = "jdbc:mysql://localhost:3306/test?charactorEncoding=utf-8";
 			con = DriverManager.getConnection(url , "root", "123456");
 		} catch (Throwable e) {
 			e.printStackTrace();

@@ -7,7 +7,7 @@ public class AnonymousClassTest {
 				{
 					System.out.println("构造了一个新对象");
 				}
-				@Override
+				//@Override
 				public boolean test(int n) {
 					return n % 2 == 0;
 				}
